@@ -21,8 +21,12 @@
         </div>
     </header>
 
-    <section class="container">
+    <section class="container"> 
         <div class="header_menu">
+            <div class="header-adaptive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
             <div class="header_logo">
                 <img src="../img/logo.jpeg" alt="">
             </div>
@@ -47,9 +51,39 @@
         </div>
 
         <div class="nav">
-            <div class="nav-left">
+            <div class="nav-left" onclick="changeBurgerMenu()">
                 <i class="fa-solid fa-bars"></i>
                 <p>Shop by Department</p>
+                
+                <div id="burger-menu">
+                    <div class="menu-item">
+                        <p>Fruits & Vegetables</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Supplyments</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Dairy Bread & Eggs</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Package Foods</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Beauty & Care</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Health & Wellness</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Baby & Infants</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Home Care</p>
+                    </div>
+                    <div class="menu-item">
+                        <p>Hot Offers</p>
+                    </div>
+                </div>
             </div>
             <div class="nav-right">
                 <a href="">
@@ -545,7 +579,9 @@
 
         <div class="footer-dop">
             <p>Copyright © 2023 <span>Freshio</span>. All Rights Reserved.</p>
-        </div>
-    </section>
+        </div> 
+    </section> 
+
+    <script src="../js/burger-menu.js"></script>
 </body>
 </html>

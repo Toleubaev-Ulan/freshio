@@ -24,3 +24,9 @@
 .header_item a:hover {
     color: #bac34e;
 }
+
+@media(max-width: 1000px) {
+    .header {
+        display: none;
+    }
+} 

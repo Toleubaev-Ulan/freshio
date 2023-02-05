@@ -75,3 +75,35 @@
     outline: none;
     width: 90%;
 }
+
+@media(max-width: 1205px) {
+    .contact-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 650px) {
+    .contact-image {
+        margin: 0 15px;
+    }
+}
+
+@media(max-width: 480px) {
+    .contact-phone-link {
+        font-size: 20px;
+    }
+    .contact-image {
+        display: none;
+    }
+}
+
+/* @media(max-width: 400px) {
+    .contact-image {
+        display: none;
+    }
+} */

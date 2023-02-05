@@ -95,3 +95,26 @@
     align-items: center;
     justify-content: center;
 }
+
+.header-adaptive {
+    display: none;
+}
+
+@media(max-width: 1000px) {
+    .header-adaptive {
+        display: block;
+    }
+
+    .header_search {
+        display: none;
+    }
+
+    .header_icons div:first-child,
+    .header_icons div:nth-child(2) {
+        display: none ;
+    }
+
+    .header_menu {
+        padding: 15px 0;
+    }
+}
